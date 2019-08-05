@@ -6,6 +6,7 @@ import java.util.List;
 public class Leilao {
 	
 	private List<Lance> lances;
+	private Produto produto;
 
 	public Leilao() {
 		super();
@@ -18,6 +19,20 @@ public class Leilao {
 
 	public void setLances(List<Lance> lances) {
 		this.lances = lances;
+	}
+	
+	
+	public Produto getProduto() {
+		return produto;
+	}
+
+	public void setProduto(Produto produto) {
+		this.produto = produto;
+	}
+
+	public void propoe(Lance lance) {
+	
+		lances.add(lance);  
 	}
 	
 }

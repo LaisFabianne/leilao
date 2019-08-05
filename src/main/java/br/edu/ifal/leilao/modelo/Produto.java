@@ -5,7 +5,7 @@ public class Produto {
 	private String nome;
 	private String descricao;
 	
-	public Produto(String nome, String descricao) {
+	public Produto(String nome) {
 		super();
 		this.nome = nome;
 	}
