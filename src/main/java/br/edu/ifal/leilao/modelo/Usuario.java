@@ -5,7 +5,7 @@ public class Usuario {
 	private String nome;
 	private String email;
 
-	public Usuario(String nome, String email) {
+	public Usuario(String nome) {
 		super();
 		this.nome = nome;
 	}
